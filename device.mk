@@ -33,6 +33,9 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     $(DEVICE_PATH)/configs/audio/audio_platform_info_diff.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_diff.xml \
 
+# Blur
+TARGET_ENABLE_BLUR := true
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2.vendor
